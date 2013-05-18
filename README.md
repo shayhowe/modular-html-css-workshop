@@ -1,4 +1,4 @@
-# SXSWLegos
+# Front End Legos Workshop
 
 [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-reusable-html-and-css-workshop)
 
