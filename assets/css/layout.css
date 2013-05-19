@@ -1,4 +1,3 @@
-
 /* Simple grid
 ================================================== */
 
@@ -51,6 +50,9 @@
 .col-baselines {
   padding-bottom: 20px;
   padding-top: 20px;
+}
+.col-box {
+  padding: 20px;
 }
 
 /* Margins and paddings */

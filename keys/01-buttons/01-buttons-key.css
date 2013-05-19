@@ -1,12 +1,8 @@
-
 /* Buttons
 ================================================== */
 
-@import url("../../assets/css/normalize.css");
-@import url("../../assets/css/layout.css");
 
-
-/* Default style
+/* Defaults
 ================================================== */
 
 .btn {
@@ -16,20 +12,17 @@
   background:      -o-linear-gradient(#08c, #04c);
   background:         linear-gradient(#08c, #04c);
   border-color: #04c #04c #002a80 #04c;
-  border-width: 1px;
-  border-style: solid;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
       -ms-border-radius: 4px;
        -o-border-radius: 4px;
           border-radius: 4px;
-  -webkit-box-shadow: rgba(255, 255, 255, .2), rgba(0, 0, 0, .05);
-     -moz-box-shadow: rgba(255, 255, 255, .2), rgba(0, 0, 0, .05);
-          box-shadow: rgba(255, 255, 255, .2), rgba(0, 0, 0, .05);
+  border-style: solid;
+  border-width: 1px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font: 14px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 700 14px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 4px 12px;
   text-align: center;
@@ -74,7 +67,7 @@
   background:         linear-gradient(#fff, #e6e6e6);
   border-color: #e6e6e6 #e6e6e6 #bfbfbf #e6e6e6;
   color: #333;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .75);
 }
 
 
