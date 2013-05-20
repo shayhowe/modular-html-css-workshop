@@ -41,7 +41,7 @@ Using [02-navigation.html](https://github.com/shayhowe/front-end-legos-workshop/
 
 **Step 3:**
 
-* Using the existing horizontal tab and pill navigations, create vertical tab & pill style navigation alternates
+* Using the existing horizontal tab and pill navigations, create vertical tab and pill style navigation alternates
 
 **Result:**
 
@@ -53,8 +53,8 @@ Using [03-media-object.html](https://github.com/shayhowe/front-end-legos-worksho
 
 **Step 1:**
 
-* Place a feed within primary & secondary columns
-* Float images to the left & content to right
+* Place a feed in to primary and secondary columns
+* Float images to the left and content to right
 * Visually offset the primary feed
 * Visually offset one unique item inside the secondary column
 
@@ -65,9 +65,9 @@ Using [03-media-object.html](https://github.com/shayhowe/front-end-legos-worksho
 
 **Step 3:**
 
-* Reverse the position of images & content within the primary column, placing the images on the right and content on the left
+* Reverse the position of images and content within the primary column, placing the images on the right and content on the left
 * Leave any nested items within the primary column inversed, with images on the left and content on the right
-* Reverse the position of images & content within any offset items in the secondary column, placing the images on the left and content on the right
+* Reverse the position of images and content within any offset items in the secondary column, placing the images on the left and content on the right
 
 **Result:**
 
