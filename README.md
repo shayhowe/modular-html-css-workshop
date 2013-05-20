@@ -1,7 +1,7 @@
 # Front End Legos Workshop
 
 * [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-reusable-html-and-css-workshop)
-* [Workshop Files](#)
+* [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/blob/master/front-end-legos.zip?raw=true)
 
 ## #1 - Buttons
 
@@ -22,6 +22,11 @@ Using [01-buttons.html](https://github.com/shayhowe/front-end-legos-workshop/blo
 * Ensure the button styles that can be applied to any element, specifically including:
   * `a`, `button`, `input`, `span`, `div`
 
+**Result:**
+
+![Buttons](assets/img/screenshots/buttons.png)
+
+
 ## #2 - Navigation
 
 Using [02-navigation.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-navigation/02-navigation.html) and [02-navigation.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-navigation/02-navigation.css), complete the following:
@@ -37,6 +42,10 @@ Using [02-navigation.html](https://github.com/shayhowe/front-end-legos-workshop/
 **Step 3:**
 
 * Using the existing horizontal tab and pill navigations, create vertical tab & pill style navigation alternates
+
+**Result:**
+
+![Navigation](assets/img/screenshots/navigation.png)
 
 ## #3 - Media Object
 
@@ -56,7 +65,10 @@ Using [03-media-object.html](https://github.com/shayhowe/front-end-legos-worksho
 
 **Step 3:**
 
-* Reverse the position of images & content within the primary column, placing the images on the right and content on the right
+* Reverse the position of images & content within the primary column, placing the images on the right and content on the left
 * Leave any nested items within the primary column inversed, with images on the left and content on the right
+* Reverse the position of images & content within any offset items in the secondary column, placing the images on the left and content on the right
 
-<!-- ![Exercise3](http://f.cl.ly/items/3L2P0Y3P0d233h3R0T29/Screen%20Shot%202013-03-08%20at%204.53.38%20PM.png) -->
+**Result:**
+
+![Media Object](assets/img/screenshots/media-object.png)
