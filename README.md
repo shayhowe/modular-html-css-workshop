@@ -1,6 +1,6 @@
 # Front End Legos Workshop
 
-* [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-reusable-html-and-css-workshop)
+* [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
 * [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/blob/master/front-end-legos.zip?raw=true)
 
 ## #1 - Buttons
