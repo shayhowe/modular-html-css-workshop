@@ -3,53 +3,9 @@
 * [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
 * [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/blob/master/front-end-legos.zip?raw=true)
 
-## #1 - Buttons
+## #1 - Media Object
 
-Using [01-buttons.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/01-buttons/01-buttons.html) and [01-buttons.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/01-buttons/01-buttons.css), complete the following:
-
-**Step 1:**
-
-* Create 5 different button styles, including:
- * `Default`, `Success`, `Warning`, `Danger`, `Boring`
-
-**Step 2:**
-
-* Create 4 different buttons sizes, including:
-  * `Large`, `Small`, `Mini`
-
-**Step 3:**
-
-* Ensure the button styles that can be applied to any element, specifically including:
-  * `a`, `button`, `input`, `span`, `div`
-
-**Result:**
-
-![Buttons](assets/img/screenshots/buttons.png)
-
-
-## #2 - Navigation
-
-Using [02-navigation.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-navigation/02-navigation.html) and [02-navigation.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-navigation/02-navigation.css), complete the following:
-
-**Step 1:**
-
-* Create a horizontal tab style navigation using an unordered list
-
-**Step 2:**
-
-* Create a horizontal pill style navigation using an unordered list
-
-**Step 3:**
-
-* Using the existing horizontal tab and pill navigations, create vertical tab and pill style navigation alternates
-
-**Result:**
-
-![Navigation](assets/img/screenshots/navigation.png)
-
-## #3 - Media Object
-
-Using [03-media-object.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/03-media-object/03-media-object.html) and [03-media-object.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/03-media-object/03-media-object.css), complete the following:
+Using [01-media-object.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/01-media-object/01-media-object.html) and [01-media-object.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/01-media-object/01-media-object.css), complete the following:
 
 **Step 1:**
 
@@ -72,3 +28,47 @@ Using [03-media-object.html](https://github.com/shayhowe/front-end-legos-worksho
 **Result:**
 
 ![Media Object](assets/img/screenshots/media-object.png)
+
+## #2 - Buttons
+
+Using [02-buttons.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-buttons/02-buttons.html) and [02-buttons.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/02-buttons/02-buttons.css), complete the following:
+
+**Step 1:**
+
+* Create 5 different button styles, including:
+ * `Default`, `Success`, `Warning`, `Danger`, `Boring`
+
+**Step 2:**
+
+* Create 4 different buttons sizes, including:
+  * `Large`, `Small`, `Mini`
+
+**Step 3:**
+
+* Ensure the button styles that can be applied to any element, specifically including:
+  * `a`, `button`, `input`, `span`, `div`
+
+**Result:**
+
+![Buttons](assets/img/screenshots/buttons.png)
+
+
+## #3 - Navigation
+
+Using [03-navigation.html](https://github.com/shayhowe/front-end-legos-workshop/blob/master/03-navigation/03-navigation.html) and [03-navigation.css](https://github.com/shayhowe/front-end-legos-workshop/blob/master/03-navigation/03-navigation.css), complete the following:
+
+**Step 1:**
+
+* Create a horizontal tab style navigation using an unordered list
+
+**Step 2:**
+
+* Create a horizontal pill style navigation using an unordered list
+
+**Step 3:**
+
+* Using the existing horizontal tab and pill navigations, create vertical tab and pill style navigation alternates
+
+**Result:**
+
+![Navigation](assets/img/screenshots/navigation.png)
