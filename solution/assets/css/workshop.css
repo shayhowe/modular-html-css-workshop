@@ -1,0 +1,420 @@
+/* Front-end Legos Workshop with Shay Howe
+================================================== */
+
+
+/* HTML5 display definitions
+================================================== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+/* Base
+================================================== */
+
+html {
+  color: #555;
+  font: 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background: #eee;
+  margin: 0;
+}
+
+/* Simple grid
+================================================== */
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Box offset */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+
+/* Box offset */
+
+.box-offset {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+}
+
+/* Container */
+
+.container {
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 980px;
+}
+
+/* Surgical classes */
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.col-gutters {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col-baselines {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.col-box {
+  padding: 20px;
+}
+
+/* Margins and paddings */
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.margin-top {
+  margin-top: 20px;
+}
+.pad-bottom {
+  padding-bottom: 20px;
+}
+.pad-top {
+  padding-top: 20px;
+}
+
+
+/* Typography
+================================================== */
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 20px 0;
+}
+
+/* Sizes */
+
+h1,
+.h-headline {
+  font-size: 36px;
+}
+h2,
+.h-subheadline {
+  font-size: 24px;
+}
+h3,
+.h-byline {
+  font-size: 21px;
+}
+h4,
+.h-standfirst {
+  font-size: 18px;
+}
+h5,
+.h-related {
+  font-size: 16px;
+}
+h6,
+.h-promo {
+  font-size: 14px;
+}
+
+/* Colors */
+
+h1, h2, h3, h4 {
+  color: #29abe2;
+}
+h5, h6 {
+  color: #333;
+}
+
+/* Offsets */
+
+b,
+strong {
+  font-weight: bold;
+}
+.text-subtle {
+  color: #999;
+  font-weight: normal;
+}
+
+
+/* Media
+================================================== */
+
+img {
+  border: 0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+}
+
+
+/* Lists
+================================================== */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Media object
+================================================== */
+
+.media, 
+.media-body {
+  overflow: hidden;
+}
+.media-primary .media-object,
+.media-secondary .media-object-alt {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+.media-primary .media-object-alt,
+.media-secondary .media-object {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.media-object img,
+.media-object-alt img {
+  display: block;
+}
+.media-count {
+  color: #999;
+  float: right;
+  font-size: 11px;
+  line-height: 1;
+  padding: 3px 5px 2px 5px;
+}
+
+/* Primary */
+
+.media-primary {
+  border-bottom: 1px solid #d4d4d4;
+}
+.media-primary .media {
+  border-top: 1px solid #d4d4d4;
+}
+
+/* Secondary */
+
+.media-secondary .media-object img,
+.media-secondary .media-object-alt img {
+  width: 40px;
+}
+
+/* Buttons
+================================================== */
+
+.btn {
+  background-color: #08c;
+  border: 1px solid rgba(0, 0, 0, .17);
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font: 700 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* Types */
+
+.btn-success {
+  background-color: #62c462;
+}
+.btn-warning {
+  background-color: #fbb450;
+}
+.btn-danger {
+  background-color: #da4f49;
+}
+.btn-boring {
+  background: #fff;
+  color: #08c;
+}
+
+/* Sizes */
+
+.btn-large {
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  font-size: 18px;
+  padding: 11px 19px;
+}
+.btn-small {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+       -o-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 14px;
+  padding: 4px 10px;
+}
+.btn-mini {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+       -o-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 12px;
+  padding: 1px 8px;
+}
+
+
+/* Navigation
+================================================== */
+
+.nav a {
+  color: #08c;
+  display: block;
+  margin-right: 2px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.nav a:hover,
+.nav a:focus {
+  color: #62c462;
+}
+.nav .nav-active a {
+  cursor: default;
+  font-weight: 700;
+}
+
+/* Tabs */
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+.nav-tabs li {
+  margin-bottom: -1px;
+}
+.nav-tabs a {
+  border: 1px solid #d4d4d4;
+}
+.nav-tabs li:first-child > a {
+    -webkit-border-radius: 5px 5px 0 0;
+       -moz-border-radius: 5px 5px 0 0;
+        -ms-border-radius: 5px 5px 0 0;
+         -o-border-radius: 5px 5px 0 0;
+            border-radius: 5px 5px 0 0;
+}
+.nav-tabs li:last-child > a {
+    -webkit-border-radius: 0 0 5px 5px;
+       -moz-border-radius: 0 0 5px 5px;
+        -ms-border-radius: 0 0 5px 5px;
+         -o-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+}
+.nav-tabs .nav-active a {
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  border-bottom-color: transparent;
+  color: #555;
+}
+
+
+/* Pills */
+
+.nav-pills a {
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  margin-bottom: 3px;
+}
+.nav-pills .nav-active a {
+  background-color: #08c;
+  border-color: rgba(0, 0, 0, .17);
+  color: #fff
+}
+
+
+/* Responsive
+================================================== */
+
+@media all and (min-width: 640px) {
+
+  /* Columns */
+
+  .col-1-3,
+  .col-2-3 {
+    float: left;
+  }
+  .col-1-3 {
+    width: 33.33%;
+  }
+  .col-2-3 {
+    width: 66.66%;
+  }
+
+  /* Navigation */
+
+  .nav li {
+    float: left;
+  }
+
+  /* Tabs */
+
+  .nav-tabs {
+    margin-bottom: 0;
+  }
+  .nav-tabs a {
+    -webkit-border-radius: 5px 5px 0 0;
+       -moz-border-radius: 5px 5px 0 0;
+        -ms-border-radius: 5px 5px 0 0;
+         -o-border-radius: 5px 5px 0 0;
+            border-radius: 5px 5px 0 0;
+    border-color: transparent;
+  }
+
+  /* Pills */
+
+  .nav-pills a {
+    margin-bottom: 0;
+  }
+
+}

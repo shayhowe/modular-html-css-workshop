@@ -5,33 +5,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Media Object Key - Front End Legos</title>
+    <title>Front End Legos Key</title>
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="../../assets/css/normalize.css">
-    <link rel="stylesheet" href="../../assets/css/layout.css">
-    <link rel="stylesheet" href="01-media-object-key.css">
+    <link rel="stylesheet" href="assets/css/workshop.css">
 
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
 
   </head>
   <body>
 
-    <div class="container">
-
-      <h1>Media Object</h1>
+    <div class="container group">
 
       <section class="box-offset col-2-3 pad-top">
 
-        <h2 class="col-gutters">Recent Posts</h2>
+        <h2 class="col-gutters">Totally Awesome Corp.</h2>
+
+        <nav class="col-gutters">
+          <ul class="nav nav-tabs group">
+            <li class="nav-active"><a href="#">Discussions</a></li>
+            <li><a href="#">To-dos</a></li>
+            <li><a href="#">Files</a></li>
+          </ul>
+        </nav>
 
         <ul class="media-primary">
 
           <li class="media col-gutters pad-top">
             <a class="media-object" href="#">
-              <img src="../../assets/img/shay.jpg" alt="Shay">
+              <img src="assets/img/shay.jpg" alt="Shay">
             </a>
             <div class="media-body">
               <strong class="media-count box-offset">2</strong>
@@ -42,17 +46,17 @@
 
           <li class="media col-gutters pad-top">
             <a class="media-object" href="#">
-              <img src="../../assets/img/carolyn.jpg" alt="Carolyn">
+              <img src="assets/img/carolyn.jpg" alt="Carolyn">
             </a>
             <div class="media-body">
               <h5>Carolyn <span class="text-subtle h-promo">posted 1 day ago</span></h5>
-              <p>Trying to figure out accommodations for SXSW Interactive. Anyone have an extra spot where they&#8217;re staying? Or looking for a space?</p>
+              <p>Trying to figure out accommodations for SXSW Interactive. Anyone have an extra spot where they&#8217;re staying?</p>
             </div>
           </li>
 
           <li class="media col-gutters pad-top">
             <a class="media-object" href="#">
-              <img src="../../assets/img/jason.jpg" alt="Jason">
+              <img src="assets/img/jason.jpg" alt="Jason">
             </a>
             <div class="media-body">
               <strong class="media-count box-offset">13</strong>
@@ -60,7 +64,7 @@
               <p>Gotta address the anxiety forces. A stipend doesn&#8217;t address the root of the anxiety. The anxiety is coming from uncertainty, chores, &#8220;starting over&#8221;, etc.</p>
               <div class="media pad-top">
                 <a class="media-object-alt" href="#">
-                  <img src="../../assets/img/darby.jpg" alt="Darby">
+                  <img src="assets/img/darby.jpg" alt="Darby">
                 </a>
                 <div class="media-body">
                   <h5>Darby <span class="text-subtle h-promo">posted 1 day ago</span></h5>
@@ -72,7 +76,7 @@
 
           <li class="media col-gutters pad-top">
             <a class="media-object" href="#">
-              <img src="../../assets/img/erica.jpg" alt="Erica">
+              <img src="assets/img/erica.jpg" alt="Erica">
             </a>
             <div class="media-body">
               <h5>Erica <span class="text-subtle h-promo">posted 2 days ago</span></h5>
@@ -82,7 +86,7 @@
 
           <li class="media col-gutters pad-top">
             <a class="media-object" href="#">
-              <img src="../../assets/img/tracy.jpg" alt="Tracy">
+              <img src="assets/img/tracy.jpg" alt="Tracy">
             </a>
             <div class="media-body">
               <strong class="media-count box-offset">8</strong>
@@ -93,57 +97,73 @@
 
         </ul>
 
+        <div class="col-box">
+          <a class="btn btn-boring" href="#">View more</a>
+          <a class="btn pull-right" href="#">Start a new discussion</a>
+        </div>
+
       </section>
 
-      <section class="col-1-3 col-gutters pad-top">
+      <aside class="col-1-3 col-gutters pad-top">
 
-        <h4>Related Posts</h4>
+        <h4>All Activity</h4>
+
+        <nav class="margin-bottom">
+          <ul class="nav nav-pills group">
+            <li class="nav-active"><a href="#">Today</a></li>
+            <li><a href="#">Yesterday</a></li>
+            <li><a href="#">This Week</a></li>
+          </ul>
+        </nav>
 
         <ul class="media-secondary">
 
           <li class="media">
             <a class="media-object" href="#">
-              <img src="../../assets/img/carolyn.jpg" alt="Carolyn">
+              <img src="assets/img/carolyn.jpg" alt="Carolyn">
             </a>
             <div class="media-body">
-              <h5>Carolyn <span class="text-subtle h-promo">posted 1 day ago</span></h5>
+              <h5>Carolyn <span class="text-subtle h-promo">posted 1 hour ago</span></h5>
               <p>Sign up via Facebook is cool and all, but now it seems like every site wants you to do that before you can tell if it has enough value.</p>
             </div>
           </li>
 
           <li class="media">
             <a class="media-object" href="#">
-              <img src="../../assets/img/jason.jpg" alt="Jason">
+              <img src="assets/img/jason.jpg" alt="Jason">
             </a>
             <div class="media-body">
-              <h5>Jason <span class="text-subtle h-promo">posted 2 days ago</span></h5>
+              <h5>Jason <span class="text-subtle h-promo">posted 2 hours ago</span></h5>
               <p>There&#8217;s no reason to oversell here with large promises and fancy words. Overselling is a sign of insecurity, speak confidently.</p>
             </div>
           </li>
 
-          <li class="media box-offset col-gutters pad-top margin-bottom">
+          <li class="media box-offset col-box margin-bottom">
             <a class="media-object-alt" href="#">
-              <img src="../../assets/img/erica.jpg" alt="Erica">
+              <img src="assets/img/erica.jpg" alt="Erica">
             </a>
             <div class="media-body">
-              <h5>Erica <span class="text-subtle h-promo">posted 2 days ago</span></h5>
-              <p>Your ability to be creative isn&#8217;t defined by your job title. Go build stuff!</p>
+              <h5>Erica <span class="text-subtle h-promo">posted 5 hours ago</span></h5>
+              <p>Your ability to be creative isn&#8217;t defined by your job title.</p>
+              <a class="btn btn-danger btn-mini" href="#">Remove</a>
             </div>
           </li>
 
           <li class="media">
             <a class="media-object" href="#">
-              <img src="../../assets/img/tracy.jpg" alt="Tracy">
+              <img src="assets/img/tracy.jpg" alt="Tracy">
             </a>
             <div class="media-body">
-              <h5>Tracy <span class="text-subtle h-promo">posted 4 days ago</span></h5>
+              <h5>Tracy <span class="text-subtle h-promo">posted 9 hours ago</span></h5>
               <p>Reading &#8220;HTML &amp; CSS&#8221; by Jon Duckett, which is new gold standard for books to teach complete beginners.</p>
             </div>
           </li>
 
         </ul>
 
-      </section>
+        <a class="btn btn-boring" href="#">View more</a>
+
+      </aside>
 
     </div>
 
