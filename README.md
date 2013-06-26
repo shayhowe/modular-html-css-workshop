@@ -15,6 +15,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 * Float images to the left and content to right
 * Visually offset the primary feed
 * Visually offset one unique item inside the secondary column
+* Reduce the width of the images within the secondary column
 
 **Step 2:**
 
@@ -26,6 +27,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 * Reverse the position of images and content within the primary column, placing the images on the right and content on the left
 * Leave any nested items within the primary column inversed, with images on the left and content on the right
 * Reverse the position of images and content within any offset items in the secondary column, placing the images on the left and content on the right
+* Change the "Posted&hellip;" text next to each name to be more subtle
 
 ## #2 - Buttons
 

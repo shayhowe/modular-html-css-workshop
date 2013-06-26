@@ -317,7 +317,7 @@ ul {
 .nav a:focus {
   color: #62c462;
 }
-.nav .nav-active a {
+.nav-active a {
   cursor: default;
   font-weight: 700;
 }
@@ -349,7 +349,7 @@ ul {
 }
 .nav-tabs .nav-active a {
   background-color: #fff;
-  border: 1px solid #d4d4d4;
+  border-color: #d4d4d4;
   border-bottom-color: transparent;
   color: #555;
 }
