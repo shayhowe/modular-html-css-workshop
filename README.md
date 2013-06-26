@@ -1,9 +1,11 @@
 # Front End Legos Workshop
 
 * [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
-* [Workshop Files](#)
+* [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/archive/master.zip)
 
-Add workshop overview here, update link for workshop files, prepare print offs, update slides
+All too often writing HTML and CSS is an afterthought. Its the work that happens after design is finalized and the product has been developed. Its a necessary task in the process to building a website. Wrong.
+
+HTML and CSS are the backbone to every website, and are equally as important as any design or development. At the end of the workshop and after spending time writing some of code attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
 
 ## #1 - Media Object
 
@@ -40,7 +42,7 @@ Add workshop overview here, update link for workshop files, prepare print offs, 
 **Step 3:**
 
 * Compose 4 different buttons sizes, including:
-  * `Large`, `Small`, `Mini`
+  * `Default`, `Large`, `Small`, `Mini`
 
 **Step 4:**
 
