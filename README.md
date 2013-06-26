@@ -68,4 +68,4 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 ## Final Product
 
-![Workshop Screenshot](solution/screenshot.png)
+![Workshop Screenshot](screenshot.png)
