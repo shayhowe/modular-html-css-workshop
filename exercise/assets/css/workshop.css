@@ -44,7 +44,7 @@ body {
           box-sizing: border-box;
 }
 
-/* Box offset */
+/* Clearfix */
 
 .group:before,
 .group:after {
