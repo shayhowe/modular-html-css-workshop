@@ -65,7 +65,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 **Step 3:**
 
-* Create new classes, `nav-tabs-stacked` and `nav-pills-stacked`, that transform the horizontal list tab and pill style navigations into stacked vertical lists
+* Create two new classes, `nav-tabs-stacked` and `nav-pills-stacked`, that transform the horizontal list tab and pill style navigations into stacked vertical lists
 
 ## Final Product
 
