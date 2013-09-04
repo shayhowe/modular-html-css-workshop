@@ -11,23 +11,23 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 **Step 1:**
 
-* Place a feed in to primary and secondary columns
-* Float images to the left and content to right
-* Visually offset the primary feed
+* Place two different feeds in to primary and secondary columns
+* Float all profile images to the left and content to right
+* Visually offset the primary column
 * Visually offset one unique item inside the secondary column
 * Reduce the width of the images within the secondary column
 
 **Step 2:**
 
-* Add borders around each primary item
-* Add counts to a few primary items
+* Add borders around each item inside the primary column
+* Add counts to a few items inside the primary column
+* Change the "Posted&hellip;" text next to each name to be more subtle
 
 **Step 3:**
 
-* Reverse the position of images and content within the primary column, placing the images on the right and content on the left
-* Leave any nested items within the primary column inversed, with images on the left and content on the right
-* Reverse the position of images and content within any offset items in the secondary column, placing the images on the left and content on the right
-* Change the "Posted&hellip;" text next to each name to be more subtle
+* Reverse the position of profile images and content within the primary column, placing the images on the right and content on the left
+* Leave any nested items within the primary column inversed, with profile images on the left and content on the right
+* Reverse the position of profile images and content within any offset items in the secondary column, placing the images on the left and content on the right
 
 ## #2 - Buttons
 
@@ -65,8 +65,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 **Step 3:**
 
-* Using a media query, when a browser width falls below 640 pixels transform the horizontal list tab and pill style navigations into vertical list
-  * Don't forget to take the mobile first approach into consideration
+* Create new classes, `nav-tabs-stacked` and `nav-pills-stacked`, that transform the horizontal list tab and pill style navigations into stacked vertical lists
 
 ## Final Product
 

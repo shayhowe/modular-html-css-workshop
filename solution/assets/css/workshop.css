@@ -1,7 +1,6 @@
 /* Front-end Legos Workshop with Shay Howe
 ================================================== */
 
-
 /* HTML5 display definitions
 ================================================== */
 
@@ -20,13 +19,12 @@ summary {
   display: block;
 }
 
-
 /* Base
 ================================================== */
 
 html {
   color: #555;
-  font: 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   background: #eee;
@@ -110,12 +108,27 @@ body {
   padding-top: 20px;
 }
 
-
 /* Typography
 ================================================== */
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 600;
 }
 
 /* Sizes */
@@ -126,45 +139,44 @@ h1,
 }
 h2,
 .h-subheadline {
-  font-size: 24px;
+  font-size: 21px;
 }
 h3,
 .h-byline {
-  font-size: 21px;
+  font-size: 18px;
 }
 h4,
 .h-standfirst {
-  font-size: 18px;
+  font-size: 16px;
 }
 h5,
 .h-related {
-  font-size: 16px;
+  font-size: 14px;
 }
 h6,
 .h-promo {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Colors */
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: #29abe2;
 }
-h5, h6 {
+h5,
+h6 {
   color: #333;
 }
 
-/* Offsets */
+/* Offset */
 
-b,
-strong {
-  font-weight: bold;
-}
 .text-subtle {
   color: #999;
   font-weight: normal;
 }
-
 
 /* Media
 ================================================== */
@@ -178,7 +190,6 @@ img {
           border-radius: 5px;
 }
 
-
 /* Lists
 ================================================== */
 
@@ -187,7 +198,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 
 /* Media object
 ================================================== */
@@ -213,9 +223,9 @@ ul {
 .media-count {
   color: #999;
   float: right;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1;
-  padding: 3px 5px 2px 5px;
+  padding: 3px 5px;
 }
 
 /* Primary */
@@ -238,17 +248,15 @@ ul {
 ================================================== */
 
 .btn {
-  background-color: #08c;
   border: 1px solid rgba(0, 0, 0, .17);
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
       -ms-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
-  color: #fff;
   cursor: pointer;
   display: inline-block;
-  font: 700 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 14px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 8px 12px;
   text-align: center;
@@ -258,6 +266,15 @@ ul {
 
 /* Types */
 
+.btn-default,
+.btn-success,
+.btn-warning,
+.btn-danger {
+  color: #fff;
+}
+.btn-default {
+  background-color: #08c;
+}
 .btn-success {
   background-color: #62c462;
 }
@@ -268,7 +285,7 @@ ul {
   background-color: #da4f49;
 }
 .btn-boring {
-  background: #fff;
+  background-color: #fff;
   color: #08c;
 }
 
@@ -289,7 +306,7 @@ ul {
       -ms-border-radius: 3px;
        -o-border-radius: 3px;
           border-radius: 3px;
-  font-size: 14px;
+  font-size: 12px;
   padding: 4px 10px;
 }
 .btn-mini {
@@ -298,18 +315,20 @@ ul {
       -ms-border-radius: 3px;
        -o-border-radius: 3px;
           border-radius: 3px;
-  font-size: 12px;
+  font-size: 10px;
   padding: 1px 8px;
 }
-
 
 /* Navigation
 ================================================== */
 
+.nav li {
+  float: left;
+  margin-right: 2px;
+}
 .nav a {
   color: #08c;
   display: block;
-  margin-right: 2px;
   padding: 8px 12px;
   text-decoration: none;
 }
@@ -319,33 +338,21 @@ ul {
 }
 .nav-active a {
   cursor: default;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* Tabs */
 
-.nav-tabs {
-  margin-bottom: 20px;
-}
 .nav-tabs li {
   margin-bottom: -1px;
 }
 .nav-tabs a {
-  border: 1px solid #d4d4d4;
-}
-.nav-tabs li:first-child > a {
-    -webkit-border-radius: 5px 5px 0 0;
-       -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-         -o-border-radius: 5px 5px 0 0;
-            border-radius: 5px 5px 0 0;
-}
-.nav-tabs li:last-child > a {
-    -webkit-border-radius: 0 0 5px 5px;
-       -moz-border-radius: 0 0 5px 5px;
-        -ms-border-radius: 0 0 5px 5px;
-         -o-border-radius: 0 0 5px 5px;
-            border-radius: 0 0 5px 5px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px 5px 0 0;
+     -moz-border-radius: 5px 5px 0 0;
+      -ms-border-radius: 5px 5px 0 0;
+       -o-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
 }
 .nav-tabs .nav-active a {
   background-color: #fff;
@@ -354,6 +361,34 @@ ul {
   color: #555;
 }
 
+/* Stacked tabs */
+
+.nav-tabs-stacked li {
+  float: none;
+  margin-right: 0;
+}
+.nav-tabs-stacked a {
+  border-color: #d4d4d4;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+        -ms-border-radius: 0;
+         -o-border-radius: 0;
+            border-radius: 0;
+}
+.nav-tabs-stacked li:first-child > a {
+    -webkit-border-radius: 5px 5px 0 0;
+       -moz-border-radius: 5px 5px 0 0;
+        -ms-border-radius: 5px 5px 0 0;
+         -o-border-radius: 5px 5px 0 0;
+            border-radius: 5px 5px 0 0;
+}
+.nav-tabs-stacked li:last-child > a {
+    -webkit-border-radius: 0 0 5px 5px;
+       -moz-border-radius: 0 0 5px 5px;
+        -ms-border-radius: 0 0 5px 5px;
+         -o-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+}
 
 /* Pills */
 
@@ -364,7 +399,6 @@ ul {
       -ms-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
-  margin-bottom: 3px;
 }
 .nav-pills .nav-active a {
   background-color: #08c;
@@ -372,11 +406,21 @@ ul {
   color: #fff
 }
 
+/* Stacked pills */
+
+.nav-pills-stacked li {
+  float: none;
+  margin-right: 0;
+  margin-top: 3px;
+}
+.nav-pills-stacked li:first-child {
+  margin-top: 0;
+}
 
 /* Responsive
 ================================================== */
 
-@media all and (min-width: 640px) {
+@media all and (min-width: 680px) {
 
   /* Columns */
 
@@ -389,32 +433,6 @@ ul {
   }
   .col-2-3 {
     width: 66.66%;
-  }
-
-  /* Navigation */
-
-  .nav li {
-    float: left;
-  }
-
-  /* Tabs */
-
-  .nav-tabs {
-    margin-bottom: 0;
-  }
-  .nav-tabs a {
-    -webkit-border-radius: 5px 5px 0 0;
-       -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-         -o-border-radius: 5px 5px 0 0;
-            border-radius: 5px 5px 0 0;
-    border-color: transparent;
-  }
-
-  /* Pills */
-
-  .nav-pills a {
-    margin-bottom: 0;
   }
 
 }
