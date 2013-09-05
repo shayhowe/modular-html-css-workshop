@@ -68,8 +68,8 @@ body {
 /* Container */
 
 .container {
-  margin: 20px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 20px;
   max-width: 980px;
 }
 
