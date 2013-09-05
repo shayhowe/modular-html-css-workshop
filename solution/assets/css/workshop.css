@@ -327,6 +327,7 @@ ul {
   margin-right: 2px;
 }
 .nav a {
+  border: 1px solid transparent;
   color: #08c;
   display: block;
   padding: 8px 12px;
@@ -347,7 +348,6 @@ ul {
   margin-bottom: -1px;
 }
 .nav-tabs a {
-  border: 1px solid transparent;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
       -ms-border-radius: 5px 5px 0 0;
@@ -364,7 +364,6 @@ ul {
 /* Pills */
 
 .nav-pills a {
-  border: 1px solid transparent;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
       -ms-border-radius: 5px;
