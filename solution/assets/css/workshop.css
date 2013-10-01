@@ -273,7 +273,7 @@ ul {
   color: #fff;
 }
 .btn-default {
-  background-color: #08c;
+  background-color: #29abe2;
 }
 .btn-success {
   background-color: #62c462;
@@ -286,7 +286,7 @@ ul {
 }
 .btn-boring {
   background-color: #fff;
-  color: #08c;
+  color: #29abe2;
 }
 
 /* Sizes */
@@ -328,7 +328,7 @@ ul {
 }
 .nav a {
   border: 1px solid transparent;
-  color: #08c;
+  color: #29abe2;
   display: block;
   padding: 8px 12px;
   text-decoration: none;
@@ -358,7 +358,7 @@ ul {
   background-color: #fff;
   border-color: #d4d4d4;
   border-bottom-color: transparent;
-  color: #555;
+  color: #333;
 }
 
 /* Pills */
@@ -371,7 +371,7 @@ ul {
           border-radius: 5px;
 }
 .nav-pills .nav-active a {
-  background-color: #08c;
+  background-color: #29abe2;
   border-color: rgba(0, 0, 0, .17);
   color: #fff
 }

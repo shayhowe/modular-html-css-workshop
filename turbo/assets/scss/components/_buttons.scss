@@ -1,0 +1,32 @@
+// Buttons
+// ==================================================
+
+// Types
+
+.btn-default {
+  @include btn-style(background-blue);
+}
+.btn-success {
+  @include btn-style(background-green);
+}
+.btn-warning {
+  @include btn-style(background-orange);
+}
+.btn-danger {
+  @include btn-style(background-red);
+}
+.btn-boring {
+  @include btn-style(background-white, color-blue);
+}
+
+// Sizes
+
+.btn-large {
+  @include btn-size(6px, h-byline, 11px 19px)
+}
+.btn-small {
+  @include btn-size(3px, h-promo, 4px 10px)
+}
+.btn-mini {
+  @include btn-size(3px, h-micro, 1px 8px)
+}

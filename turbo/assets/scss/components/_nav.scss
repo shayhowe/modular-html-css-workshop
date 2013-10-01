@@ -1,0 +1,78 @@
+// Navigation
+// ==================================================
+
+.nav {
+  @extend .group;
+  li {
+    @extend .pull-left;
+    margin-right: 2px;
+  }
+  a {
+    border: 1px solid transparent;
+    @extend %color-blue;
+    @extend .display-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      @extend %color-green;
+    }
+  }
+}
+.nav-active a {
+  cursor: default;
+  @extend %font-weight-bold;
+}
+
+// Tabs
+
+.nav-tabs li {
+  margin-bottom: -1px;
+}
+.nav-tabs a {
+  @include border-radius(5px 5px 0 0);
+}
+.nav-tabs .nav-active a {
+  @extend %background-white;
+  border-color: $light-gray;
+  border-bottom-color: transparent;
+  @extend %color-black;
+}
+
+// Pills
+
+.nav-pills a {
+  @extend %border-radius-base;
+}
+.nav-pills .nav-active a {
+  @extend %background-blue;
+  border-color: rgba(0, 0, 0, .17);
+  @extend %color-white;
+}
+
+// Stacked
+
+.nav-tabs-stacked li,
+.nav-pills-stacked li {
+  float: none;
+  margin-right: 0;
+}
+
+// Stacked tabs
+
+.nav-tabs-stacked a {
+  border-color: $light-gray;
+  @include border-radius(0);
+}
+.nav-tabs-stacked li:first-child a {
+  @include border-radius(5px 5px 0 0);
+}
+.nav-tabs-stacked li:last-child a {
+  @include border-radius(0 0 5px 5px);
+}
+
+// Stacked pills
+
+.nav-pills-stacked li + li {
+  margin-top: 3px;
+}

@@ -1,0 +1,51 @@
+// Media object
+// ==================================================
+
+.media,
+.media-body {
+  overflow: hidden;
+}
+.media-primary .media-object,
+.media-secondary .media-object-alt {
+  @extend .pull-right;
+  margin: 0 0 $grid-baseline $grid-gutter;
+}
+.media-primary .media-object-alt,
+.media-secondary .media-object {
+  @extend .pull-left;
+  margin: 0 $grid-gutter $grid-baseline 0;
+}
+.media-object,
+.media-object-alt {
+  img {
+    border: 0;
+    @extend %border-radius-base;
+    @extend .display-block;
+  }
+}
+.media-count {
+  @extend .box-offset;
+  @extend %color-gray;
+  @extend .pull-right;
+  @extend .h-micro;
+  line-height: 1;
+  padding: 3px 5px;
+}
+
+// Primary
+
+.media-primary {
+  border-bottom: 1px solid $light-gray;
+  .media {
+    border-top: 1px solid $light-gray;
+  }
+}
+
+// Secondary
+
+.media-secondary .media-object,
+.media-secondary .media-object-alt {
+  img {
+    width: 40px;
+  }
+}

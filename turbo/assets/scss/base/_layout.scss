@@ -1,0 +1,72 @@
+// HTML5 display definitions
+// ==================================================
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  @extend .display-block;
+}
+
+body {
+  background: #eee;
+  @extend .margin-0;
+}
+
+// Simple grid
+// ==================================================
+
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+// Clearfix
+
+.group {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Container
+
+.container {
+  margin: 0 auto;
+  @extend .col-box;
+  max-width: 980px;
+}
+
+// Responsive
+// ==================================================
+
+@media all and (min-width: 680px) {
+
+  // Columns
+
+  %float-left {
+    float: left;
+  }
+
+  @for $grid-column from 1 to $grid-columns {
+    .col-#{$grid-column}-#{$grid-columns} {
+      @extend %float-left;
+      width: ($grid-column/$grid-columns)*100%;
+    }
+  }
+
+}

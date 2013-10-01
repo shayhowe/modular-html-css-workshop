@@ -1,0 +1,16 @@
+// Mixins
+// ==================================================
+
+// Buttons
+
+@mixin btn-style($background-extend, $color-extend: color-white) {
+  @extend %btn;
+  @extend %#{$background-extend};
+  @extend %#{$color-extend};
+}
+
+@mixin btn-size($border-radius, $font-size-extend, $padding...) {
+  @include border-radius($border-radius);
+  @extend .#{$font-size-extend};
+  padding: $padding;
+}
