@@ -1,5 +1,7 @@
-// HTML5 display definitions
+// Layout
 // ==================================================
+
+// HTML5 display definitions
 
 article,
 aside,
@@ -16,13 +18,7 @@ summary {
   @extend .display-block;
 }
 
-body {
-  background: #eee;
-  @extend .margin-0;
-}
-
-// Simple grid
-// ==================================================
+// Defaults
 
 *,
 *:after,
@@ -30,17 +26,9 @@ body {
   @include box-sizing(border-box);
 }
 
-// Clearfix
-
-.group {
-  &:before,
-  &:after {
-    content: "";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+body {
+  background: #eee;
+  @extend .margin-0;
 }
 
 // Container
@@ -51,12 +39,10 @@ body {
   max-width: 980px;
 }
 
-// Responsive
+// Responsive grid
 // ==================================================
 
 @media all and (min-width: 680px) {
-
-  // Columns
 
   %float-left {
     float: left;

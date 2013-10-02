@@ -18,6 +18,19 @@
   float: right;
 }
 
+// Clearfix
+
+.group {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 // Surgical classes
 
 .col-gutters {

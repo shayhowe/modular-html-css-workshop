@@ -26,49 +26,59 @@
 
 // Tabs
 
-.nav-tabs li {
-  margin-bottom: -1px;
-}
-.nav-tabs a {
-  @include border-radius(5px 5px 0 0);
-}
-.nav-tabs .nav-active a {
-  @extend %background-white;
-  border-color: $gray-light;
-  border-bottom-color: transparent;
-  @extend %color-black;
+.nav-tabs {
+  li {
+    margin-bottom: -1px;
+  }
+  a {
+    @include border-radius(5px 5px 0 0);
+  }
+  .nav-active a {
+    @extend %background-white;
+    border-color: $gray-light;
+    border-bottom-color: transparent;
+    @extend %color-black;
+  }
 }
 
 // Pills
 
-.nav-pills a {
-  @extend %border-radius-base;
-}
-.nav-pills .nav-active a {
-  @extend %background-blue;
-  border-color: rgba(0, 0, 0, .17);
-  @extend %color-white;
+.nav-pills {
+  a {
+    @extend %border-radius-base;
+  }
+  .nav-active a {
+    @extend %background-blue;
+    border-color: rgba(0, 0, 0, .17);
+    @extend %color-white;
+  }
 }
 
 // Stacked
 
-.nav-tabs-stacked li,
-.nav-pills-stacked li {
-  float: none;
-  margin-right: 0;
+.nav-tabs-stacked,
+.nav-pills-stacked {
+  li {
+    float: none;
+    margin-right: 0;
+  }
 }
 
 // Stacked tabs
 
-.nav-tabs-stacked a {
-  border-color: $gray-light;
-  @include border-radius(0);
-}
-.nav-tabs-stacked li:first-child a {
-  @include border-radius(5px 5px 0 0);
-}
-.nav-tabs-stacked li:last-child a {
-  @include border-radius(0 0 5px 5px);
+.nav-tabs-stacked {
+  a {
+    border-color: $gray-light;
+    @include border-radius(0);
+  }
+  li {
+    &:first-child a {
+      @include border-radius(5px 5px 0 0);
+    }
+    &:last-child a {
+      @include border-radius(0 0 5px 5px);
+    }
+  }
 }
 
 // Stacked pills

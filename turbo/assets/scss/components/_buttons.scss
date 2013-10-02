@@ -22,11 +22,11 @@
 // Sizes
 
 .btn-large {
-  @include btn-size(6px, h-byline, 11px 19px)
+  @include btn-size(6px, h-byline, 11px 19px);
 }
 .btn-small {
-  @include btn-size(3px, h-promo, 4px 10px)
+  @include btn-size(3px, h-promo, 4px 10px);
 }
 .btn-mini {
-  @include btn-size(3px, h-micro, 1px 8px)
+  @include btn-size(3px, h-micro, 1px 8px);
 }
