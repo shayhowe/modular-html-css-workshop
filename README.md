@@ -7,23 +7,29 @@ All too often writing HTML and CSS is an afterthought. Its the work that happens
 
 HTML and CSS are the backbone to every website, and are equally as important as any design or development. At the end of the workshop and after spending time writing some of code attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
 
-## #1 - Media Object
+## #1 - Media
 
-**Step 1:**
+**Step 1**
 
 * Place two different feeds in to primary and secondary columns
 * Float all profile images to the left and content to right
+
+**Step 2**
+
 * Visually offset the primary column
 * Visually offset one unique item inside the secondary column
-* Reduce the width of the images within the secondary column
 
-**Step 2:**
+**Step 3**
 
 * Add borders around each item inside the primary column
+* Reduce the width of the images within the secondary column
+
+**Step 4**
+
 * Add counts to a few items inside the primary column
 * Change the "Posted&hellip;" text next to each name to be more subtle
 
-**Step 3:**
+**Step 5**
 
 * Reverse the position of profile images and content within the primary column, placing the images on the right and content on the left
 * Leave any nested items within the primary column inversed, with profile images on the left and content on the right
@@ -31,42 +37,99 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 ## #2 - Buttons
 
-**Step 1:**
+**Step 1**
 
 * Add `View more`, `Start a new discussion`, and `Remove` buttons
   * Do not forget to account for different styles, sizes, and element types as outlined in the following steps
 
-**Step 2:**
+**Step 2**
 
 * Compose 5 different button styles, including:
  * `Default`, `Success`, `Warning`, `Danger`, `Boring`
 
-**Step 3:**
+**Step 3**
 
 * Compose 4 different buttons sizes, including:
   * `Default`, `Large`, `Small`, `Mini`
 
-**Step 4:**
+**Step 4**
 
 * Ensure the button styles that can be applied to any element, specifically including:
   * `a`, `button`, `input`, `span`, `div`
 
 ## #3 - Navigation
 
-**Step 1:**
+**Step 1**
 
 * Create a horizontal tab style navigation using an unordered list across the top of the primary column
   * Include links for `Discussions`, `To-dos`, and `Files`
 
-**Step 2:**
+**Step 2**
 
 * Create a horizontal pill style navigation using an unordered list across the top of the secondary column
   * Include links for `Today`, `Yesterday`, and `This Week`
 
-**Step 3:**
+**Step 3**
 
 * Create two new classes, `nav-tabs-stacked` and `nav-pills-stacked`, that transform the horizontal list tab and pill style navigations into stacked vertical lists
 
+# Turbo
+
+Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost our capabilities, providing even more resources for better flexibility, organization, and performance. Using [SCSS](http://sass-lang.com/) let&#8217;s take another look at our example, refactoring it to be even more modular.
+
+## #1 - Organization
+
+**Step 1**
+
+* Inside the `assets` folder create a new folder named `scss`
+  * Move the `workshop.css` file into this new folder
+* Download and install the [Scout App](http://mhs.github.io/scout-app/)
+* Create a new project in Scout using the current set of files
+  * For the stylesheets directories set `assets/scss` as the input folder and `assets/css` as the output folder
+* Change the file extension of the `workshop.css` file to `workshop.css.scss`
+
+**Step 2**
+
+* Create folders for `base`, `components`, and `settings`
+* Appropriately break apart `workshop.css.scss` into the proper partials across the new folders
+  * Make sure each partial begins with an underscore, `_`, and strictly has a file extension of `.scss`, not `.css.scss`
+* Use `workshop.css.scss` to import Compass and all of the partials
+
+## #2 - Settings
+
+**Step 1**
+
+* Create a `_variables.scss` file in the `settings` folder and add any appropriate variables
+  * Include variables for  `Layout`, `Colors`, `Typography` and any miscellaneous variables
+* Using these variables, write any necessary extends
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Final Product
 
-![Workshop Screenshot](screenshot.png)
+![Workshop Final Product Screenshot](screenshot.png)

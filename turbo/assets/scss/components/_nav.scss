@@ -34,7 +34,7 @@
 }
 .nav-tabs .nav-active a {
   @extend %background-white;
-  border-color: $light-gray;
+  border-color: $gray-light;
   border-bottom-color: transparent;
   @extend %color-black;
 }
@@ -61,7 +61,7 @@
 // Stacked tabs
 
 .nav-tabs-stacked a {
-  border-color: $light-gray;
+  border-color: $gray-light;
   @include border-radius(0);
 }
 .nav-tabs-stacked li:first-child a {

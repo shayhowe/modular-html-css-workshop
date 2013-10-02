@@ -57,7 +57,7 @@
 
 .box-offset {
   @extend %background-white;
-  border: 1px solid $light-gray;
+  border: 1px solid $gray-light;
   @extend %border-radius-base;
 }
 
@@ -78,8 +78,8 @@
 %color-gray {
   color: $gray;
 }
-%color-dark-gray {
-  color: $dark-gray;
+%color-gray-dark {
+  color: $gray-dark;
 }
 %color-black {
   color: $black;
