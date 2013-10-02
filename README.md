@@ -85,50 +85,46 @@ Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost
   * Move the `workshop.css` file into this new folder
 * Download and install the [Scout App](http://mhs.github.io/scout-app/)
 * Create a new project in Scout using the current set of files
-  * For the stylesheets directories set `assets/scss` as the input folder and `assets/css` as the output folder
+  * Set `scss` as the input folder and `css` as the output folder
 * Change the file extension of the `workshop.css` file to `workshop.css.scss`
 
 **Step 2**
 
-* Create folders for `base`, `components`, and `settings`
-* Appropriately break apart `workshop.css.scss` into the proper partials across the new folders
-  * Make sure each partial begins with an underscore, `_`, and strictly has a file extension of `.scss`, not `.css.scss`
-* Use `workshop.css.scss` to import Compass and all of the partials
+* Inside the `scss` folder create folders for `base`, `components`, and `settings`
+* Break apart `workshop.css.scss` appropriately into partials across these new folders
+  * Partials must begin with an underscore, `_`, and have a file extension of `.scss`, not `.css.scss`
+* Use the `workshop.css.scss` file to import Compass and all of the partials
 
 ## #2 - Settings
 
 **Step 1**
 
 * Create a `_variables.scss` file in the `settings` folder and add any appropriate variables
-  * Include variables for  `Layout`, `Colors`, `Typography` and any miscellaneous variables
-* Using these variables, write any necessary extends
+  * Include variables for  `Layout`, `Colors`, `Typography` and so forth
 
+**Step 2**
 
+* Develop any additional extends based of the necessary variables
 
+## #3 - Refactor
 
+**Step 1**
 
+* Refactor the `base` partials using the appropriate variables and extends, including:
+  * `_layout.scss` and `_typography.scss`
+  * Add any additional variables, extends, or mixins as seen necessary
 
+**Step 2**
 
+* Refactor the `components` partials using the appropriate variables and extends, including:
+  * `_buttons.scss`, `_lists.scss`, `_media.scss`, and `_nav.scss`
+  * Add any additional variables, extends, or mixins as seen necessary
 
+## #4 - Compile
 
+**Step 1**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Configure Scout App to compile the styles in a `Production` environment and `Compressed` output before any deploys
 
 ## Final Product
 
