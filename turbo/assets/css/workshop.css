@@ -252,13 +252,13 @@ body {
     width: 66.66667%;
   }
 }
-/* line 12, ../scss/base/_typography.scss */
+/* line 15, ../scss/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 p {
   margin: 0 0 20px 0;
 }
 
-/* line 53, ../scss/base/_typography.scss */
+/* line 56, ../scss/base/_typography.scss */
 .text-subtle {
   font-weight: normal;
 }

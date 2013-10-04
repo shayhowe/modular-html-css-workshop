@@ -8,6 +8,9 @@ html {
   @extend %font-family-sans-serif;
 }
 
+// Uses the Compass headings() helper
+// http://compass-style.org/reference/compass/helpers/selectors/
+
 #{headings()},
 p {
   margin: 0 0 $grid-baseline 0;
