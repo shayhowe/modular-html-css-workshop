@@ -77,7 +77,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost our capabilities, providing even more resources for better flexibility, organization, and performance. Using [SCSS](http://sass-lang.com/) let&#8217;s take another look at our example, refactoring it to be even more modular.
 
-## #1 - Organization
+## #1 - Setup
 
 **Step 1**
 
@@ -88,14 +88,16 @@ Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost
   * Set `scss` as the input folder and `css` as the output folder
 * Change the file extension of the `workshop.css` file to `workshop.css.scss`
 
-**Step 2**
+## #2 - Organization
+
+**Step 1**
 
 * Inside the `scss` folder create folders for `base`, `components`, and `settings`
 * Break apart `workshop.css.scss` appropriately into partials across these new folders
   * Partials must begin with an underscore, `_`, and have a file extension of `.scss`, not `.css.scss`
 * Use the `workshop.css.scss` file to import Compass and all of the partials
 
-## #2 - Settings
+## #3 - Settings
 
 **Step 1**
 
@@ -106,7 +108,7 @@ Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost
 
 * Develop any additional extends based of the necessary variables
 
-## #3 - Refactor
+## #4 - Refactor
 
 **Step 1**
 
@@ -120,7 +122,7 @@ Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost
   * `_buttons.scss`, `_lists.scss`, `_media.scss`, and `_nav.scss`
   * Add any additional variables, extends, or mixins as seen necessary
 
-## #4 - Compile
+## #5 - Compile
 
 **Step 1**
 
