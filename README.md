@@ -1,6 +1,7 @@
 # Front End Legos Workshop
 
 * [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
+* [Turbo Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-turbo-workshop-reusable-html-and-css/)
 * [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/archive/master.zip)
 
 All too often writing HTML and CSS is an afterthought. Its the work that happens after design is finalized and the product has been developed. Its a necessary task in the process to building a website. Wrong.
@@ -12,7 +13,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 **Step 1**
 
 * Place two different feeds in to primary and secondary columns
-* Float all profile images to the left and content to right
+* Float all profile images to the left and content to the right
 
 **Step 2**
 
