@@ -1,7 +1,7 @@
-# Front End Legos Workshop
+# Modular HTML &amp; CSS Workshop
 
-* [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
-* [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/archive/master.zip)
+* [Presentation Slides](https://speakerdeck.com/shayhowe/modular-html-and-css-workshop)
+* [Workshop Files](https://github.com/shayhowe/modular-html-css-workshop/archive/master.zip)
 
 All too often writing HTML and CSS is an afterthought. Its the work that happens after design is finalized and the product has been developed. Its a necessary task in the process to building a website. Wrong.
 
