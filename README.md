@@ -1,7 +1,7 @@
-# Front End Legos Workshop
+# Modular HTML &amp; CSS Workshop
 
-* [Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css)
-* [Workshop Files](https://github.com/shayhowe/front-end-legos-workshop/blob/master/front-end-legos.zip?raw=true)
+* [Presentation Slides](https://speakerdeck.com/shayhowe/modular-html-and-css-workshop)
+* [Workshop Files](https://github.com/shayhowe/modular-html-css-workshop/archive/master.zip)
 
 ## #1 - Media Object
 
