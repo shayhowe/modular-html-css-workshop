@@ -1,0 +1,221 @@
+/* Front-end Legos Workshop with Shay Howe & Darby Frey
+======================================================= */
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display definitions
+======================================================= */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Base
+======================================================= */
+
+html {
+  height: 100%;
+}
+body {
+  background: #3a3a40;
+  color: #4c4c53;
+  font: 16px/22px "Open Sans", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+/* Typography
+======================================================= */
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+/* Sizes */
+
+h1,
+.h-headline {
+  font-size: 21px;
+  font-weight: 300;
+}
+h2,
+.h-subheadline {
+  font-size: 16px;
+}
+h3,
+.h-byline {
+  font-size: 14px;
+}
+h4,
+.h-standfirst {
+  font-size: 12px;
+}
+
+/* Offset */
+
+.artist {
+  color: #95959a;
+}
+
+/* Weights */
+
+
+h2, h3, h4 {
+  font-weight: 400;
+}
+.h-bold {
+  font-weight: 600;
+}
+
+/* Links */
+
+a {
+  color: #97979a;
+  text-decoration: none;
+  -webkit-transition: all .1s linear;
+     -moz-transition: all .1s linear;
+       -o-transition: all .1s linear;
+          transition: all .1s linear;
+}
+
+/* Lists */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hardware acceleration
+======================================================= */
+
+.boost {
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+/* Image replacement
+======================================================= */
+
+.ir {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Cover art
+======================================================= */
+
+.cover-art {
+  background-image: url("../img/jimmy-eat-world.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.cover-background {
+  bottom: 0;
+  -webkit-filter: blur(60px);
+     -moz-filter: blur(60px);
+          filter: blur(60px);
+  left: 0;
+  opacity: .3;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Controls
+======================================================= */
+
+.control-play {
+  background-position: 0 0;
+}
+.control-prev {
+  background-position: -40px 0;
+}
+.control-next {
+  background-position: -74px 0;
+}
+.control-fav {
+  background-position: -108px 0;
+}
+.control-share {
+  background-position: -136px 0;
+}
+
+/* Container
+======================================================= */
+
+.container {
+  padding: 66px 0;
+  position: relative;
+  margin: 0 auto;
+  width: 352px;
+  z-index: 2;
+}
+
+/* Player
+======================================================= */
+
+.player {
+  border-radius: 5px 5px 0 0;
+  height: 352px;
+}
+
+/* Now playing
+======================================================= */
+
+.now-playing {
+  background: #3a3a40;
+  color: #fff;
+  padding: 21px 20px;
+}
+.now-playing .artist {
+  margin-top: 2px;
+}
+
+/* Playlist
+======================================================= */
+
+.playlist {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.playlist-song {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 22px 0 21px 0;
+}
+.playlist-song:last-child {
+  border: none;
+}
+.playlist-song:hover {
+  cursor: pointer;
+}
+.playlist-song img {
+  border-radius: 5px;
+  height: 66px;
+}

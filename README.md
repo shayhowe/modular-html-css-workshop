@@ -131,4 +131,4 @@ Pure HTML and CSS allow us to be modular however CSS preprocessors greatly boost
 
 ## Final Product
 
-![Workshop Final Product Screenshot](screenshot.png)
+![Workshop Totally Awesome Corp Product Screenshot](screenshots/totally-awesome-corp.png)

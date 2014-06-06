@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="164px"
+	 height="40px" viewBox="0 0 164 40" enable-background="new 0 0 164 40" xml:space="preserve">
+<g id="Icons">
+	<rect fill="none" width="164" height="40"/>
+	<path id="Share" fill="#4C4C53" d="M144.056,19.5h0.372l0.693-1.129c0.743-1.186,1.625-2.271,2.743-2.771
+		c0.882-0.396,1.688-0.683,3.138-0.725v2.889l6.947-4.632L151.002,8.5v2.906c-2.278,0.101-3.912,0.748-5.187,2.033
+		c-1.893,1.908-1.762,4.305-1.762,4.912C144.058,18.672,144.056,19.135,144.056,19.5z"/>
+	<path id="Fav" fill="#4C4C53" d="M129.325,12.104h-5.768l-1.77-5.354l-1.77,5.354h-5.769l4.718,3.293l-1.836,5.354l4.656-3.318
+		l4.652,3.318l-1.838-5.354L129.325,12.104z"/>
+	<path id="Next" fill="#FFFFFF" d="M92,12.5v4.331L84.125,12.5v9L92,17.169V21.5l7.875-4.5L92,12.5L92,12.5z"/>
+	<path id="Prev" fill="#FFFFFF" d="M56,12.5L48.125,17L56,21.5v-4.331l7.875,4.331v-9L56,16.831V12.5L56,12.5z"/>
+	<path id="Play" fill="#FFFFFF" d="M14.601,12v16l12.799-8L14.601,12L14.601,12z"/>
+</g>
+<g id="Guides">
+</g>
+</svg>

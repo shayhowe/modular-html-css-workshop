@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Boombox - Modular HTML &amp; CSS</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="assets/css/workshop.css">
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/vendor/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body id="js-player">
+
+    <!-- Loading -->
+
+    <div class="loading flag" data-player-loading>
+      <figure class="flag-object">
+        <img src="assets/img/loading.gif" alt="Currently loading...">
+      </figure>
+      <div class="flag-body">
+        <h3>Currently loading&#8230;</h3>
+      </div>
+    </div>
+
+    <section class="container" data-player-container>
+
+      <!-- Player -->
+
+      <header class="player cover-art controls-container" data-song-artwork>
+        <menu class="controls player-controls boost">
+          <li>
+            <a class="control-prev ir" href="#" data-control-prev>Previous</a>
+          </li>
+          <li>
+            <a class="control-play ir" href="#">Play/Pause</a>
+          </li>
+          <li>
+            <a class="control-next ir" href="#" data-control-next>Next</a>
+          </li>
+        </menu>
+      </header>
+
+      <!-- Now Playing -->
+
+      <section class="now-playing">
+        <h1 data-song-title></h1>
+        <h2 data-song-artist class="artist h-byline"></h2>
+      </section>
+
+      <!-- Playlist -->
+
+      <section class="playlist">
+        <ul class="songs" data-playlist>
+        </ul>
+      </section>
+
+    </section>
+
+    <!-- Background -->
+
+    <div class="cover-art cover-background boost" data-song-artwork></div>
+
+    <!-- Playlist template -->
+
+    <script data-template-song type="text/x-handlebars-template">
+      <li class="playlist-song flag" data-playlist-song>
+        <figure class="flag-object">
+          <img src="{{artwork}}" alt="{{artist}}">
+        </figure>
+        <div class="flag-body">
+          <div class="controls-container">
+            <h3 class="h-subheadline h-bold">{{title}}</h3>
+            <h4 class="artist h-byline">{{artist}}</h4>
+            <menu class="controls playlist-controls boost">
+              <li>
+                <a class="control-fav ir" href="#">Favorite</a>
+              </li>
+              <li>
+                <a class="control-share ir" href="#">Share</a>
+              </li>
+            </menu>
+          </div>
+        </div>
+      </li>
+    </script>
+
+    <!-- External scripts -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+
+    <!-- Vendor scripts -->
+
+    <script src="assets/js/vendor/jquery.rdio.js"></script>
+    <script src="assets/js/vendor/rdio-service.js"></script>
+
+    <!-- Data files -->
+
+    <script src="data/playlist.json"></script>
+
+    <!-- App scripts -->
+
+    <script src="assets/js/player.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/playlist.js"></script>
+    <script src="assets/js/song.js"></script>
+
+  </body>
+</html>
