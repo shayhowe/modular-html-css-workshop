@@ -58,11 +58,7 @@ body {
 .box-offset {
   background: #fff;
   border: 1px solid #d4d4d4;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Container */
@@ -207,11 +203,7 @@ ul {
 .media-object img,
 .media-object-alt img {
   border: 0;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   display: block;
 }
 .media-count {
@@ -243,11 +235,7 @@ ul {
 
 .btn {
   border: 1px solid rgba(0, 0, 0, .17);
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   cursor: pointer;
   display: inline-block;
   font: 600 14px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -286,29 +274,17 @@ ul {
 /* Sizes */
 
 .btn-large {
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
+  border-radius: 6px;
   font-size: 18px;
   padding: 11px 19px;
 }
 .btn-small {
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-       -o-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   font-size: 12px;
   padding: 4px 10px;
 }
 .btn-mini {
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-       -o-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   font-size: 10px;
   padding: 1px 8px;
 }
@@ -342,11 +318,7 @@ ul {
   margin-bottom: -1px;
 }
 .nav-tabs a {
-  -webkit-border-radius: 5px 5px 0 0;
-     -moz-border-radius: 5px 5px 0 0;
-      -ms-border-radius: 5px 5px 0 0;
-       -o-border-radius: 5px 5px 0 0;
-          border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 .nav-tabs .nav-active a {
   background-color: #fff;
@@ -358,11 +330,7 @@ ul {
 /* Pills */
 
 .nav-pills a {
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
 }
 .nav-pills .nav-active a {
   background-color: #29abe2;
@@ -382,25 +350,13 @@ ul {
 
 .nav-tabs-stacked a {
   border-color: #d4d4d4;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-        -ms-border-radius: 0;
-         -o-border-radius: 0;
-            border-radius: 0;
+  border-radius: 0;
 }
 .nav-tabs-stacked li:first-child a {
-    -webkit-border-radius: 5px 5px 0 0;
-       -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-         -o-border-radius: 5px 5px 0 0;
-            border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 .nav-tabs-stacked li:last-child a {
-    -webkit-border-radius: 0 0 5px 5px;
-       -moz-border-radius: 0 0 5px 5px;
-        -ms-border-radius: 0 0 5px 5px;
-         -o-border-radius: 0 0 5px 5px;
-            border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 /* Stacked pills */
