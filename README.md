@@ -82,7 +82,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 ## Boombox
 
-### #1 Assembling Layout
+### #1 - Assembling Layout
 
 **Step 1**
 
@@ -93,7 +93,7 @@ HTML and CSS are the backbone to every website, and are equally as important as 
 
 * Reusing styles from positioning the album artwork, add a `Currently loading…` section at the top of the file to displayed before the playlist loads
 
-### #2 Accommodating Content
+### #2 - Accommodating Content
 
 **Step 1**
 
